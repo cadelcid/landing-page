@@ -31,12 +31,12 @@ button {
     flex-basis: 500px;
 }
 
-.header-contents {
-    padding: 10 0 100 0;
+.header-container {
+    margin: 10px 250px 120px 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 1000px;
+
 }
 
 .header-top {
@@ -60,7 +60,7 @@ button {
 }
 
 .header-bottom {
-    gap: 2px;
+    gap: 8px;
     display: flex;
     justify-content: space-between;
 }
@@ -102,29 +102,24 @@ button {
 /* ------------------------------middle 1-------------------------------- */
 
 .middle-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 500px;
-
-}
-
-.middle-1-contents {
-    padding: 0 0 100 0;
+    gap: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 500px;
 }
 
 .middle-1-title {
+    margin-top: 50px;
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    padding: 60 0 60;
 }
 
 .card-container {
+    margin-bottom: 120px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -191,6 +186,8 @@ button {
 }
 
 .footer-contents {
+    margin-left: 250px;
+    margin-right: 250px;
     border-radius: 5px;
     padding: 40px 80px 40px 80px;
     background-color: #3882f6;
